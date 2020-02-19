@@ -1,0 +1,63 @@
+baseurl         = "https://example.sheradanmiller.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
+
+[params]
+  title       = "Example Site"
+  subtitle    = "Test site"
+  copyright   = "© 2020"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Trying to do this thing"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "SheradanM"
+  githubName = "Chebbly"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  showSupport = true
+
+  author = "SM"
+  authorAvatar = "pics/profile_picture.jpg"
+  authorLocation = "Gateshead, UK"
+  authorWebsite = "https://sheradanmiller.com"
+  authorDescription = "PhD Student"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/post/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Project"
+  url = "/tags/project/"
+  weight = 100
+
+[[menu.main]]
+  name = "About Me"
+  url = "/categories/aboutme/"
+  weight = 99
+
+[[menu.main]]
+  name = "External"
+  url = "https://google.com/"
+  weight = 95
